@@ -13,7 +13,8 @@ export LANG=en_US.UTF-8
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
 ZSH_THEME="aphrodite"
 
-
+PATH=/bin:/usr/bin:/usr/local/bin:${PATH}
+export PATH
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
